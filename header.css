@@ -1,0 +1,381 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.header{
+    height: 54px;
+    width: 1265.33;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+
+
+
+.h-left{
+   
+    display: flex;
+    flex-direction: row;
+    width: 248px;
+    align-items:flex-start
+
+}
+.miso-logo{
+    
+    width: 137px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.msft-img{
+    width: 108px;
+    height: 23px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.i{
+   
+    width: 36px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.bar{
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 18px;
+}
+.h-skype{
+    
+    width: 69px;
+    height: 50px;   
+}
+.skype{
+    display: inline-block;
+    font-weight:600;
+    font-size: 18px;
+    color: #262626;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.skype:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+}
+
+
+
+.h-middle{
+    
+    flex:1;
+    max-width: 524px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    
+}
+.D,.SN,.M,.SP,.F{
+   margin-left: 8px;
+   margin-right: 8px;
+    padding-bottom: 3px;
+}
+.D:hover,.SN:hover,.M:hover,.SP:hover,.F:hover{
+    border-bottom: 2px solid black;
+}
+.d,.sp,.sn,.f,.m{
+    font-size: 14px;
+    font-weight: 400;
+    color: #262626;
+}
+
+
+
+.h-right{
+    width: 455px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-top: 10px;
+}
+.div-host{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.div-signin{
+    padding-left: 16px;
+    padding-right: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.host,.signin{
+    font-size: 14px;
+    font-weight: 400; 
+    padding-bottom: 4px;
+    color: #2b2c33; 
+}
+.host:hover,.signin:hover{
+    border-bottom: 2px solid black;
+}
+
+
+
+.main{
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+}
+
+.mainl{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+}
+.boxl{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 420px;
+    margin-top: 60px;
+}
+.h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #2b2c33;
+    font-weight: 700;
+}
+.skypetxt{
+    box-sizing: border-box;
+    background-image:linear-gradient(90deg, #0078d4, #c218ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #2b2c33;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+}
+.browsebutton{
+    color: white;
+    background-color: #0078ca;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 100px;
+}
+.browsebutton:hover{
+    background-color: #255f86;
+}
+.browsebutton:active{
+    background-color: #2b2c33;
+}
+.dlink{
+    margin-top: 30px;
+}
+.mainr{
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mainimg{
+    width: 625px;
+    height: 495px;
+}
+.div-h2{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2b2c33;;
+}
+.boxesm{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.boxes{
+    width: 322px;
+    height: 664px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.boxesa{
+    height: 200px;
+}
+.boximg{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+}
+.boxesb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 373px;
+    padding: 40px;
+    padding-bottom: 50px;
+    
+}
+.ph{
+    display: flex;
+    flex-direction: column; 
+}
+.boxh{
+    font-size: 20px;
+    font-weight:750;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #2b2c33;
+}
+.boxp{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2c33 ;
+    text-align: left;
+}
+.lmr{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.bxu{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    width: 1100px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 50px
+}
+.social{
+  display: flex;
+}
+.lisocial{
+  display:inline;
+  padding-right: 20px;
+  text-decoration: underline;
+  color: #2b2c33;
+  font-size: 15px;
+  font-weight: 400;
+}
+.bxur{
+  text-align: right;
+}
+.bxurtxt2{
+  font-size: 13px;
+  font-weight: 400;
+  color: #2b2c33;
+}
+.footer{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.07);
+  width: 1060px;
+  height: 348px;
+  margin-top: 50px;
+  justify-content:space-between;
+  padding-left: 64px;
+  padding-right: 124px;
+}
+
+.footerh{
+  padding-top: 36px;
+  padding-bottom: 4px;
+  color: #616161;
+  font-size: large;
+  font-weight: 700;
+}
+.footerli{
+  font-size: 11px;
+  font-weight: 400;
+  color: #616161;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.footerli:hover{
+    text-decoration: underline;
+    color: black;
+}
+.footeru{
+    display: flex;
+    width: 1130px;
+    height: 51px;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding-left: 59px;
+    padding-right: 59px;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    justify-content: space-between;
+}
+select{
+    padding-right: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    font-size: 13px;
+    color: #363636; 
+}
+select:hover{
+    border:#262626 solid 2px;
+}
+
+.footeru2{
+  display: flex;
+  align-items:flex-end;
+  justify-content: end;
+
+}
+.footeruli{
+    display: inline;
+    padding-right: 25px;
+    color: #616161;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footeruli:hover{
+  color: black;
+  text-decoration: underline;
+}
+.footeruliex{
+    display: inline;
+    padding-right: 25px;
+    color: #616161;
+    font-size: 12px;
+    font-weight: 400;
+}
+.lastul{
+  margin: 0px;
+  padding: 0px;
+}
